@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = WorkingCalendar::VERSION
   spec.authors       = ['Gabriel Naiman']
   spec.email         = ['gabynaiman@gmail.com']
-  spec.summary       = ''
-  spec.description   = ''
+  spec.summary       = 'Working calendar specification'
+  spec.description   = 'Working calendar specification'
   spec.homepage      = 'https://github.com/gabynaiman/working_calendar'
   spec.license       = 'MIT'
 
