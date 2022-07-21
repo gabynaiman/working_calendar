@@ -63,4 +63,9 @@ describe WorkingCalendar::WeekDay do
     assert_equal 'Invalid day name xyz', error.message
   end
 
+  it 'Invalid range' do
+    error = proc { WorkingCalendar::WeekDay.new :sunday, '18:00' => '09:00' }.must_raise ArgumentError
+    assert_equal 'Invalid range 18:00:00 - 09:00:00', error.message
+  end
+
 end

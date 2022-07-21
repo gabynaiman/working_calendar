@@ -25,7 +25,7 @@ class WorkingCalendar
       hours_ranges.each_with_object({}) do |(from_expression, to_expression), hash|
         from = Timing::HourMinutesSeconds.parse from_expression
         to = Timing::HourMinutesSeconds.parse to_expression
-        raise ArgumentError, "Invalid range #{from - to}" if from >= to
+        raise ArgumentError, "Invalid range #{from} - #{to}" if from >= to
         hash[from] = to
       end
     end
