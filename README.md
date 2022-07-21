@@ -1,7 +1,7 @@
 # WorkingCalendar
 
 [![Gem Version](https://badge.fury.io/rb/working_calendar.svg)](https://rubygems.org/gems/working_calendar)
-[![Build Status](https://travis-ci.org/gabynaiman/working_calendar.svg?branch=master)](https://travis-ci.org/gabynaiman/working_calendar)
+[![CI](https://github.com/gabynaiman/working_calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/gabynaiman/working_calendar/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/gabynaiman/working_calendar/badge.svg?branch=master)](https://coveralls.io/github/gabynaiman/working_calendar?branch=master)
 [![Code Climate](https://codeclimate.com/github/gabynaiman/working_calendar.svg)](https://codeclimate.com/github/gabynaiman/working_calendar)
 
